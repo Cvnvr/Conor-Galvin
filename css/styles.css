@@ -1,5 +1,5 @@
 body {
-  background: #f9f9f9;
+  background: #F5F6F4;
 }
 
 footer {
@@ -30,7 +30,7 @@ footer a {
 .social-buttons {
   z-index: 999;
   position: fixed;
-  right: 20px;
+  right: 30px;
   background: rgba(255, 255, 255, 0);
 }
 
@@ -58,7 +58,7 @@ footer a {
   box-sizing: border-box;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#0990cc,#3ddadb);
+  background: linear-gradient(#25373E, #527979, #CAD2C5);
 }
 
 .startWrapper {
@@ -67,9 +67,7 @@ footer a {
   box-sizing: border-box;
   justify-content: center;
   min-height: 100vh;
-  background-image: url("../assets/img/bg.png");
-  background-position: top;
-  background-size: cover;
+  background: linear-gradient(#CAD2C5, #E6EAE4, #F5F6F4);
 }
 
 .sectionWrapper {
@@ -87,16 +85,16 @@ footer a {
 }
 
 .scrollBtn {
-  background-color: #f9f9f9;
-  border: 1px solid #37c8c8;
-  color: #37c8c8;
+  background-color: #F5F6F4;
+  border: 1px solid #84A98C;
+  color: rgba(0,0,0,0.54);
   transition: all .2s;
 }
 
 .scrollBtn:hover {
-  background-color: #37c8c8;
-  color: #fff;
-  transform: translateY(3px);
+  background-color: #84A98C;
+  color: #F5F6F4;
+  transform: translateY(2.5px);
   box-shadow: none;
 }
 
@@ -110,7 +108,7 @@ footer a {
   margin: 0 auto;
   padding: 20px 0 5px 0;
   max-width: 1200px;
-  border-bottom: 2px solid #37c8c8;
+  border-bottom: 2px solid #84A98C;
   box-sizing: border-box;
 }
 
@@ -164,7 +162,7 @@ footer a {
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
+  -ms-flex-pack: c;
   justify-content: center;
   font-family: "Helvetica","Arial",sans-serif;
   font-weight: 400;
@@ -279,7 +277,7 @@ img.article-image {
 
 .aboutMeImg {
   border-radius: 100%;
-  border: 3px solid #37c8c8;
+  border: 2.5px solid #84A98C;
 }
 
 .react-logo {
@@ -309,7 +307,7 @@ img.article-image {
 .subtitle {
   align-self: flex-start;
   font-weight: 400;
-  border-bottom: 2px solid #37c8c8;
+  border-bottom: 2px solid #84A98C;
   margin-bottom: 10px;
 }
 
